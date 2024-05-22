@@ -1,6 +1,6 @@
 -- SQL script to list all shows of the genre Comedy
 
-SELECT s.title AS 'name'
+SELECT s.title AS 'title'
 FROM tv_genres AS g
 JOIN tv_show_genres AS sg
 ON g.id = sg.genre_id
